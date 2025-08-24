@@ -1,7 +1,7 @@
 import os
 
 class Settings:
-    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "AIzaSyD6KFRf_di8Ul65m0ZUyIQ6eDYg1RyAqRs")
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     GEMINI_BASE_URL: str = os.getenv("GEMINI_BASE_URL", "https://api.gemini.google.com/v1/chat/completions")
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-pro")
 
